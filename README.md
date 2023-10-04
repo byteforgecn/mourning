@@ -4,15 +4,15 @@
 >
 > A script that greys the site and displays specified content on a day of mourning.
 
-> 中国的哀悼日是指全国范围内为了纪念和哀悼重大的国家灾难、重大人员伤亡事件或国家重要人物去世而设立的特殊日子。在这一天，全国人民都会通过默哀、降半旗、停止娱乐活动等方式来表达对逝者的哀悼和对国家的悲痛之情。
->
-> China's mourning day refers to a special day set up nationwide to commemorate and mourn major national disasters, major casualties or the death of important national figures. On this day, people across the country observe a moment of silence, fly flags at half-mast and stop entertainment activities to express their grief for the deceased and the nation.
->
-> ------
->
-> 你可以自定义日期, 文字, 持续时间, 可以满足任意国家哀悼日的需求. 哀悼行为并不狂热, 我们应当心怀感恩, 铭记历史.
->
-> You can customize the date, the text, and the duration to meet the needs of any national mourning day. Mourning is not fanatical. We should be grateful and remember history.
+中国的哀悼日是指全国范围内为了纪念和哀悼重大的国家灾难、重大人员伤亡事件或国家重要人物去世而设立的特殊日子。在这一天，全国人民都会通过默哀、降半旗、停止娱乐活动等方式来表达对逝者的哀悼和对国家的悲痛之情。
+
+China's mourning day refers to a special day set up nationwide to commemorate and mourn major national disasters, major casualties or the death of important national figures. On this day, people across the country observe a moment of silence, fly flags at half-mast and stop entertainment activities to express their grief for the deceased and the nation.
+
+------
+
+你可以自定义日期, 文字, 持续时间, 可以满足任意国家哀悼日的需求. 哀悼行为并不狂热, 我们应当心怀感恩, 铭记历史.
+
+You can customize the date, the text, and the duration to meet the needs of any national mourning day. Mourning is not fanatical. We should be grateful and remember history.
 
 
 ### Effect 效果
