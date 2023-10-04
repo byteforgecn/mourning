@@ -3,9 +3,11 @@
     var scriptElement = document.currentScript;
     var days = scriptElement.getAttribute("days").split(',');
     var customText = scriptElement.getAttribute("text");
+    var duration = parseInt(scriptElement.getAttribute("duration"));
+    var nolog = scriptElement.getAttribute("nolog");
     
+    /* 哀悼日网站变灰 */
     document.addEventListener("DOMContentLoaded", function () {
-        /* 哀悼日网站变灰 */
         if (aidaori()) {
           var htmlElement = document.querySelector("html");
           htmlElement.style.filter = "gray !important";
@@ -15,16 +17,11 @@
           htmlElement.style.MozFilter = "grayscale(100%)";
           htmlElement.style.msFilter = "grayscale(100%)";
           htmlElement.style.oFilter = "grayscale(100%)";
-        //   createCandleText("🕯沉重悼念");
           createCandleText(customText);
         }
-      
+        // 判断日期
         function aidaori() {
-          //var aidaoriarr = ["0404", "0512", "1213"];
           var aidaoriarr = days;
-          // 2020年4月4日
-          // 2008年5月12日
-          // 1937年12月13日
           var mydate = new Date();
           var str = "";
           var mm = mydate.getMonth() + 1;
@@ -67,8 +64,13 @@
               setTimeout(function () {
                 document.body.removeChild(candleTextElement);
               }, 1000);
-            }, 10000);
+            }, duration);
           }, 100);
+        }
+        
+        // 打印仓库地址
+        if (nolog !== "true") {
+          console.log(customText+ " mourning哀悼日 Github仓库: https://github.com/byteforgecn/mourning");
         }
     })
 }()
