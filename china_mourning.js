@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     /* 哀悼日网站变灰 */
-    if (aidaori() || true) {
+    if (aidaori()) {
       var htmlElement = document.querySelector("html");
       htmlElement.style.filter = "gray !important";
       htmlElement.style.filter = "progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)";
