@@ -34,7 +34,7 @@ You can customize the date, the text, and the duration to meet the needs of any 
 以下内容可以直接复制到你网站的header中使用, 你可以自定义days的日期为今天来测试效果
 The following can be copied directly into the header of your website, and you can customize the date of days to be today to test the effect
 
-<script src="https://fastly.jsdelivr.net/gh/byteforgecn/mourning@0.0.2/mourning.min.js" days="0404,0512,1213" duration="10000" text="🕯沉重悼念"></script>
+<script defer src="https://fastly.jsdelivr.net/gh/byteforgecn/mourning@0.0.2/mourning.min.js" days="0404,0512,1213" duration="10000" text="🕯沉重悼念"></script>
 ```
 
 ![halo](https://github.com/byteforgecn/mourning/assets/144019326/434a8c1c-3c20-4143-ae6c-4e6c6a2d45ea)
